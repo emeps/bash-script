@@ -54,8 +54,8 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install -y git
 
 # Configuração do Git
-git config --global user.name "Emerson Patryck"
-git config --global user.email "emeps@outlook.com"
+git config --global user.name "nome_usuario"
+git config --global user.email "email_ususario"
 
 # Instalação do Node.js usando nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
