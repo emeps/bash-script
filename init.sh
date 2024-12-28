@@ -71,8 +71,7 @@ nvm install --lts
 sudo apt-get update && sudo apt-get upgrade -y
 
 # Instala Apache2 e PHP
-sudo apt-get install -y apache2 php libapache2-mod-php php-xml php-curl php-opcache php-gd php-sqlite3 php-mbstring php-pgsql php-mysql
-
+sudo apt-get install -y apache2 php libapache2-mod-php php-xml php-curl php-opcache php-gd php-sqlite3 php-mbstring php-pgsql php-mysql zip unzip php-zip
 # Instala o Composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
